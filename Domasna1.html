@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Order Pizza</title>
+    </head>
+
+    <body><center>
+        <h1>Order pizza!</h1>
+        <form method = "post" action = "https://dominos.com">
+            <input type="hidden" name="recipient" value="dominos@gmail.com">
+            <input type="hidden" name="subject" value="Ordering Pizza">
+            <input type="hidden" name="redirect" value="main.html"> 
+            
+            <p><strong>Select the pizza size:</strong><br>
+            <input type="radio" name="size" value="big"checked>Big<br>
+            <input type="radio" name="size" value="medium">Medium<br>
+            <input type="radio" name="size" value="small">Small<br>
+            </p>
+
+            <p><strong>Select the crust type:</strong><br>
+            <select>
+                <option value="Deep Dish">Deep Dish</option>
+                <option value="Thin">Thin</option>
+                <option value="Filled with cheese">Filled with Cheese</option>
+                <option value="Garlic crust">Garlic crust</option>
+            </select></p>
+
+            <p><strong>Select the filler:</strong><br>
+            <input type="checkbox" name="filler" value="Sausages">Sausages<br>
+            <input type="checkbox" name="filler" value="Pepper">Pepper<br>
+            <input type="checkbox" name="filler" value="Mushrooms">Mushrooms<br>
+            <input type="checkbox" name="filler" value="Onion">Onions<br>
+            <input type="checkbox" name="filler" value="Pepperoni">Pepperoni<br>
+            <input type="checkbox" name="filler" value="Olives">Olives<br>
+            <input type="checkbox" name="filler" value="Ham &amp; Bacon">Ham&amp;Bacon<br>
+
+        </p>
+
+            <p><label>Name: 
+                <input name="name" type="text" size="20" maxlength="30">
+            </label><br>
+
+           <label>Phone:
+                <input phone="phone" type="tel" size="20" maxlenght="30">
+            </label><br>
+
+            <textarea name="message" rows="3" cols="30" placeholder="Message:"></textarea>
+            </p>
+
+            <input type="Submit" value="Send">
+            <input type="Reset" value="Clear">
+
+        </form>
+    </body></center>
+</html>
