@@ -1,0 +1,93 @@
+ul {
+    list-style-type: none; /* gi otstranuva bullet pointsot */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    border-radius: 15px;
+  }
+h1{
+    text-shadow: -4px 4px 6px dimgrey;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    background-color: rgb(8, 165, 131);
+    text-shadow: -4px 4px 6px dimgrey;
+    border-style:outset;
+    border-color: rgb(43, 15, 206);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba( 0, 0, 0, 0.75);
+    padding: 20px;
+  }
+
+  li {
+    float: left;
+  } 
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 76.2px;  /*prvata brojka-vertical px, vtorata brojka-horizontalno rastojanie megju zborovite*/
+    text-decoration: none;
+  }
+  
+li a:hover { /*smeni boja pri maus hover*/
+    background-color: #111;
+  }
+
+body {
+    background-color: rgb(10, 179, 156);
+    
+}
+
+.login{
+    border: 1px solid black;
+    height: 150px;
+    padding: 15px;
+    text-align: center;
+    color:rgb(5, 19, 0);
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba( 0, 0, 0, 0.75);
+}
+label{
+    margin-right: 5px;
+    text-transform: uppercase;
+    text-shadow:-4px 4px 6px dimgrey;
+    color: rgba(5, 0, 0, 0.8);
+    letter-spacing: 2px;
+}
+input{
+    background: rgba( 255, 255, 255, 0.3);
+    height: 20px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin-bottom: 25px;
+}
+
+.gap{
+    margin-right: 10px;
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap:5px;
+}
+button{
+    background: rgb(45, 126, 231);
+    height: 20px;
+    box-shadow: 0px 0px 5px rgba( 0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+}
