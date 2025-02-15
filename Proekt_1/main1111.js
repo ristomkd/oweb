@@ -167,3 +167,5 @@ window.onclick = (e) => {
     kutija.style.display = 'none';
   }
 };
+
+Math.random()
